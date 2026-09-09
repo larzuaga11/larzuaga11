@@ -1,7 +1,7 @@
 <!--====================================-->
 <!--            BANNER SECTION          -->
 <!--====================================-->
-![Banner](https://github.com/larzuaga11/larzuaga11/blob/main/GithubBanner.jpg)
+![Banner](https://github.com/larzuaga11/larzuaga11/blob/main/GithubBanner2.jpg)
 
 
 ---
