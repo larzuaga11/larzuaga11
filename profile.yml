@@ -1,0 +1,41 @@
+# ─────────────────────────────────────────────────────────────
+#  Your profile info. Edit the values, push, and the README rebuilds.
+#  Lines marked  # TODO  are placeholders you should replace.
+# ─────────────────────────────────────────────────────────────
+
+username: larzuaga11                 # your GitHub username (used for stats cards)
+name: Luis Arzuaga                    # TODO: confirm how you want your name shown
+role: Software Engineer               # TODO: one-line title, e.g. "Full-Stack Engineer"
+
+# Lines that cycle in the animated typing header under the banner.
+typing_lines:
+  - Building reliable software that solves real problems   # TODO
+  - Open to new opportunities                               # TODO
+
+# Short "About me" bullets. Keep to 3–4 lines.
+# Keep each line in quotes so characters like ':' don't break the file.
+about:
+  - "🔭 Currently building **something cool** — tell people what you're working on"   # TODO
+  - "🌱 Learning **a new technology** right now"                                        # TODO
+  - "💼 Open to **full-time roles** in software engineering"                            # TODO
+  - "⚡ Fun fact: replace this with something memorable about you"                      # TODO
+
+# Contact links. Delete any line you don't want shown.
+links:
+  linkedin: https://www.linkedin.com/in/your-handle   # TODO
+  email: you@example.com                              # TODO
+  portfolio: https://your-site.com                    # TODO
+  resume: https://your-site.com/resume.pdf            # TODO
+
+# Tech stack, grouped. Names are matched to logos automatically
+# (see the "Tech badges" section of HOW_TO_UPDATE.md).
+tech_stack:
+  Languages: [Python, TypeScript, JavaScript, SQL]                 # TODO
+  Frameworks: [React, Node.js, FastAPI]                            # TODO
+  Cloud & DevOps: [AWS, Docker, GitHub Actions]                    # TODO
+  Tools: [Git, PostgreSQL, Linux]                                  # TODO
+
+# Theme for the banner and stats cards.
+theme:
+  accent: "2F81F7"      # hex color without '#', used for banner + badges
+  show_stats: true      # set false to hide the GitHub stats section
