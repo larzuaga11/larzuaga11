@@ -15,10 +15,10 @@
 # ─────────────────────────────────────────────────────────────
 
 projects:
-  - name: Sample Project One                          # TODO: replace
+  - name: ToothCare AI                          # TODO: replace
     description: Replace with what it does and its impact — e.g. "Cut report time by 80% for a 20-person team"
-    tech: [Python, FastAPI, PostgreSQL]
-    repo: https://github.com/larzuaga11/sample-project-one
+    tech: [Python, FastAPI, SQLite, TypeScript, React Native, Faster R-CNN, Electron, CSS]
+    repo: https://github.com/larzuaga11/ToothCare-AI
     demo: https://example.com
     featured: true
     order: 1
@@ -29,9 +29,3 @@ projects:
     repo: https://github.com/larzuaga11/sample-project-two
     featured: true
     order: 2
-
-  - name: Sample Project Three                        # TODO: replace
-    description: Smaller project that shows up in the "More projects" list
-    tech: [JavaScript, Node.js]
-    repo: https://github.com/larzuaga11/sample-project-three
-    featured: false
