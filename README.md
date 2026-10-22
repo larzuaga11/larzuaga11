@@ -28,10 +28,10 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/larzuaga11/sample-project-one">Sample Project One</a></h3>
+      <h3><a href="https://github.com/larzuaga11/ToothCare-AI">ToothCare AI</a></h3>
       <p>Replace with what it does and its impact — e.g. "Cut report time by 80% for a 20-person team"</p>
-      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"> </p>
-      <p><a href="https://github.com/larzuaga11/sample-project-one"><b>Code</b></a> · <a href="https://example.com"><b>Live demo</b></a></p>
+      <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"> <img src="https://img.shields.io/badge/SQLite-30363D?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/React%20Native-30363D?style=flat-square&logo=reactnative&logoColor=white" alt="React Native"> <img src="https://img.shields.io/badge/Faster%20R--CNN-30363D?style=flat-square&logo=fasterrcnn&logoColor=white" alt="Faster R-CNN"> <img src="https://img.shields.io/badge/Electron-30363D?style=flat-square&logo=electron&logoColor=white" alt="Electron"> <img src="https://img.shields.io/badge/CSS-663399?style=flat-square&logo=css&logoColor=white" alt="CSS"> </p>
+      <p><a href="https://github.com/larzuaga11/ToothCare-AI"><b>Code</b></a> · <a href="https://example.com"><b>Live demo</b></a></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/larzuaga11/sample-project-two">Sample Project Two</a></h3>
@@ -41,18 +41,6 @@
     </td>
   </tr>
 </table>
-
-## 📂 More projects
-
-<details open>
-<summary><b>1 more project</b></summary>
-<br>
-
-| Project | Description | Tech |
-| --- | --- | --- |
-| [**Sample Project Three**](https://github.com/larzuaga11/sample-project-three) | Smaller project that shows up in the "More projects" list | JavaScript, Node.js |
-
-</details>
 
 ## 🛠️ Tech stack
 
@@ -91,5 +79,5 @@
 ---
 
 <div align="center">
-<sub>Profile auto-generated from <code>profile.yml</code> and <code>projects.yml</code> · last built 2026-10-21</sub>
+<sub>Profile auto-generated from <code>profile.yml</code> and <code>projects.yml</code> · last built 2026-10-22</sub>
 </div>
