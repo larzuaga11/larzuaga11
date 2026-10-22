@@ -25,6 +25,7 @@ about:
 links:
   linkedin: https://www.linkedin.com/in/larzuaga
   email: luisarzuaga1610@gmail.com
+  email_subject: Hello from GitHub          # pre-filled subject for the Email button (delete for none)
   portfolio: https://your-site.com                    # TODO
   resume: https://your-site.com/resume.pdf            # TODO
 

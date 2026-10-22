@@ -167,7 +167,7 @@ def validate_profile(p: dict) -> dict:
         raise ConfigError(f"profile.yml: theme.accent '{accent}' should be a 6-digit hex color like 2F81F7.")
     theme["accent"] = accent.upper()
     theme.setdefault("show_stats", True)
-    unknown = set(p["links"] or {}) - set(CONTACTS)
+    unknown = set(p["links"] or {}) - set(CONTACTS) - {"email_subject"}
     if unknown:
         raise ConfigError(
             f"profile.yml: unknown link type(s) {sorted(unknown)}. Allowed: {sorted(CONTACTS)}."
@@ -372,13 +372,18 @@ def build() -> None:
                 p[f"cover_{mode}"] = f"assets/projects/covers/{slug}-{mode}.svg"
 
     contact_badges = []
-    for key, value in (profile["links"] or {}).items():
+    links = dict(profile["links"] or {})
+    email_subject = links.pop("email_subject", "")
+    for key, value in links.items():
         if not value:
             continue
         label, logo, color, href = CONTACTS[key]
+        url = href(value)
+        if key == "email" and email_subject:
+            url += "?subject=" + quote(str(email_subject))
         contact_badges.append({
             "label": label,
-            "href": href(value),
+            "href": url,
             "img": f"https://img.shields.io/badge/{shield_text(label)}-{color}?style=for-the-badge&logo={logo}&logoColor=white",
         })
 
