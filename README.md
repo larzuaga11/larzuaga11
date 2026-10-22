@@ -18,11 +18,10 @@
 
 ## 👋 About me
 
-- 💻 **Developer building a career in cybersecurity**: I've built desktop, AI and embedded projects, and I'm now focusing on security
-- 🔒 **Privacy-first by design**: my ToothCare AI app runs fully offline, so patient data never leaves the machine
-- 🌱 **Currently learning**: security automation, compliance and GRC, and cloud security
-- 🎯 **What's next**: I'll be sharing security projects and labs here as I build them
-- 🤝 **Open to** internships, entry-level cybersecurity roles and connecting with people in the field
+- 🛡️ Developer focused on **cybersecurity, automation and privacy**
+- 🔒 Creator of **ToothCare AI**, an offline-first medical imaging app
+- 📚 Working toward **Security+** and building security projects in Python
+- 📫 Reach me on LinkedIn or by email; I'm open to internships and entry-level roles
 
 ## 🚀 Featured projects
 
