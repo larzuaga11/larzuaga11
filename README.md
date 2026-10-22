@@ -10,7 +10,7 @@
   <img src="assets/banner-light.svg" alt="Luis Arzuaga — Cybersecurity Engineer & Developer" width="100%">
 </picture>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=2EA043&center=true&vCenter=true&width=640&lines=Building+secure+systems;Automating+security+and+compliance;Open+to+Cybersecurity+Engineer+roles" alt="Building secure systems · Automating security and compliance · Open to Cybersecurity Engineer roles">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=2EA043&center=true&vCenter=true&width=640&lines=Developer+building+a+career+in+cybersecurity;Learning+security+automation+and+cloud+security;Open+to+cybersecurity+opportunities" alt="Developer building a career in cybersecurity · Learning security automation and cloud security · Open to cybersecurity opportunities">
 
 <a href="https://www.linkedin.com/in/larzuaga"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;<a href="mailto:luisarzuaga1610@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>&nbsp;<a href="https://your-site.com"><img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>&nbsp;<a href="https://your-site.com/resume.pdf"><img src="https://img.shields.io/badge/Resume-555555?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume"></a>
 
@@ -18,11 +18,11 @@
 
 ## 👋 About me
 
-- 🛡️ **Cybersecurity engineer with a developer's toolkit**: I build the software that secures, monitors and automates systems
-- ⚙️ **Security automation**: turning manual security checks and workflows into reliable scripts and pipelines
-- 📋 **Compliance and GRC**: automating evidence collection and control checks so compliance is continuous, not a yearly scramble
-- ☁️ **Cloud security**: secure-by-default infrastructure, identity and access, and hardened Linux and Windows environments
-- 🔒 **Privacy by design**: my ToothCare AI app runs fully offline so patient data never leaves the machine
+- 💻 **Developer building a career in cybersecurity**: I've built desktop, AI and embedded projects, and I'm now focusing on security
+- 🔒 **Privacy-first by design**: my ToothCare AI app runs fully offline, so patient data never leaves the machine
+- 🌱 **Currently learning**: security automation, compliance and GRC, and cloud security
+- 🎯 **What's next**: I'll be sharing security projects and labs here as I build them
+- 🤝 **Open to** internships, entry-level cybersecurity roles and connecting with people in the field
 
 ## 🚀 Featured projects
 
@@ -79,5 +79,5 @@
 ---
 
 <div align="center">
-<sub>Profile auto-generated from <code>profile.yml</code> and <code>projects.yml</code> · last built 2026-10-22</sub>
+<sub>Profile auto-generated from <code>profile.yml</code> and <code>projects.yml</code> · last built 2026-10-21</sub>
 </div>

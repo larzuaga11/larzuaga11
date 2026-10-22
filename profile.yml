@@ -9,18 +9,18 @@ role: Cybersecurity Engineer & Developer
 
 # Lines that cycle in the animated typing header under the banner.
 typing_lines:
-  - Building secure systems
-  - Automating security and compliance
-  - Open to Cybersecurity Engineer roles
+  - Developer building a career in cybersecurity
+  - Learning security automation and cloud security
+  - Open to cybersecurity opportunities
 
 # Short "About me" bullets. Keep to 3–5 lines.
 # Keep each line in quotes so characters like ':' don't break the file.
 about:
-  - "🛡️ **Cybersecurity engineer with a developer's toolkit**: I build the software that secures, monitors and automates systems"
-  - "⚙️ **Security automation**: turning manual security checks and workflows into reliable scripts and pipelines"
-  - "📋 **Compliance and GRC**: automating evidence collection and control checks so compliance is continuous, not a yearly scramble"
-  - "☁️ **Cloud security**: secure-by-default infrastructure, identity and access, and hardened Linux and Windows environments"
-  - "🔒 **Privacy by design**: my ToothCare AI app runs fully offline so patient data never leaves the machine"
+  - "💻 **Developer building a career in cybersecurity**: I've built desktop, AI and embedded projects, and I'm now focusing on security"
+  - "🔒 **Privacy-first by design**: my ToothCare AI app runs fully offline, so patient data never leaves the machine"
+  - "🌱 **Currently learning**: security automation, compliance and GRC, and cloud security"
+  - "🎯 **What's next**: I'll be sharing security projects and labs here as I build them"
+  - "🤝 **Open to** internships, entry-level cybersecurity roles and connecting with people in the field"
 
 # Contact links. Delete any line you don't want shown.
 links:
