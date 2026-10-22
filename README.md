@@ -7,12 +7,12 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
-  <img src="assets/banner-light.svg" alt="Luis Arzuaga — Software Engineer" width="100%">
+  <img src="assets/banner-light.svg" alt="Luis Arzuaga — Cyber Security Engineer" width="100%">
 </picture>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=2F81F7&center=true&vCenter=true&width=640&lines=Building+reliable+software+that+solves+real+problems;Open+to+new+opportunities" alt="Building reliable software that solves real problems · Open to new opportunities">
 
-<a href="https://www.linkedin.com/in/your-handle"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;<a href="mailto:you@example.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>&nbsp;<a href="https://your-site.com"><img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>&nbsp;<a href="https://your-site.com/resume.pdf"><img src="https://img.shields.io/badge/Resume-555555?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume"></a>
+<a href="www.linkedin.com/in/larzuaga"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>&nbsp;<a href="mailto:luisarzuaga1610@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>&nbsp;<a href="https://your-site.com"><img src="https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"></a>&nbsp;<a href="https://your-site.com/resume.pdf"><img src="https://img.shields.io/badge/Resume-555555?style=for-the-badge&logo=readdotcv&logoColor=white" alt="Resume"></a>
 
 </div>
 
