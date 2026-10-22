@@ -22,12 +22,11 @@ about:
   - "📫 Reach me on LinkedIn or by email; I'm open to internships and entry-level roles"
 
 # Contact links. Delete any line you don't want shown.
+# Also available: portfolio, resume, website, twitter (add as  key: url).
 links:
   linkedin: https://www.linkedin.com/in/larzuaga
   email: luisarzuaga1610@gmail.com
   email_subject: Hello from GitHub          # pre-filled subject for the Email button (delete for none)
-  portfolio: https://your-site.com                    # TODO
-  resume: https://your-site.com/resume.pdf            # TODO
 
 # Tech stack, grouped. Names are matched to logos automatically
 # (see the "Tech badges" section of HOW_TO_UPDATE.md).
