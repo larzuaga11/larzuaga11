@@ -40,6 +40,7 @@ TECH_LOGOS: dict[str, tuple[str, str]] = {
     "sql": ("postgresql", "4169E1"),
     "html": ("html5", "E34F26"),
     "css": ("css", "663399"),
+    "html/css": ("html5", "E34F26"),
     "bash": ("gnubash", "4EAA25"),
     "react": ("react", "61DAFB"),
     "next.js": ("nextdotjs", "000000"),
@@ -237,6 +238,115 @@ def banner_svg(name: str, role: str, accent: str, dark: bool) -> str:
 """
 
 
+# ── project covers ───────────────────────────────────────────
+# Projects without an `image` get a generated cover in the banner's style.
+
+FONT = "-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+
+COVER_MOTIFS = {
+    # Shield with keyhole
+    "shield": """
+    <path d="M640 92 L728 124 V196 C728 258 692 300 640 320 C588 300 552 258 552 196 V124 Z" stroke-width="3"/>
+    <path d="M640 124 L700 146 V198 C700 240 676 268 640 284 C604 268 580 240 580 198 V146 Z" opacity="0.4"/>
+    <circle cx="640" cy="192" r="16"/><path d="M640 208 V236"/>
+    <path d="M728 196 H800 M552 196 H500 M500 196 V120 M500 196 V280" opacity="0.5"/>""",
+    # Connected network nodes
+    "network": """
+    <circle cx="640" cy="200" r="34" stroke-width="3"/>
+    <circle cx="540" cy="110" r="14"/><circle cx="740" cy="104" r="14"/>
+    <circle cx="530" cy="300" r="14"/><circle cx="752" cy="292" r="14"/><circle cx="640" cy="350" r="10"/>
+    <path d="M614 178 L552 120 M666 178 L728 114 M612 222 L542 290 M668 222 L740 282 M640 234 V340" opacity="0.6"/>
+    <circle cx="640" cy="200" r="70" opacity="0.25"/>""",
+    # Terminal window with prompt
+    "terminal": """
+    <rect x="520" y="110" width="250" height="190" rx="14" stroke-width="3"/>
+    <path d="M520 146 H770" opacity="0.5"/>
+    <circle cx="544" cy="128" r="5"/><circle cx="562" cy="128" r="5"/><circle cx="580" cy="128" r="5"/>
+    <path d="M548 186 L576 206 L548 226" stroke-width="3"/><path d="M590 230 H640" stroke-width="3"/>
+    <path d="M548 262 H700 M548 280 H660" opacity="0.35"/>""",
+}
+
+
+def slugify(name: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-") or "project"
+
+
+def wrap(text: str, width: int, max_lines: int = 2) -> list[str]:
+    words, lines, line = text.split(), [], ""
+    for w in words:
+        if len(line) + len(w) + 1 > width and line:
+            lines.append(line)
+            line = w
+        else:
+            line = f"{line} {w}".strip()
+    lines.append(line)
+    if len(lines) > max_lines:
+        lines = lines[:max_lines]
+        lines[-1] = lines[-1][: width - 1].rstrip() + "…"
+    return lines
+
+
+def cover_svg(p: dict, accent: str, dark: bool) -> str:
+    bg = "#0D1117" if dark else "#F6F8FA"
+    fg = "#E6EDF3" if dark else "#1F2328"
+    muted = "#8D96A0" if dark else "#59636E"
+    grid = "#21262D" if dark else "#E1E4E8"
+    chip_bg = "#161B22" if dark else "#FFFFFF"
+    chip_border = "#30363D" if dark else "#D1D9E0"
+    a = f"#{accent}"
+
+    style = p.get("cover_style") or list(COVER_MOTIFS)[sum(map(ord, p["name"])) % len(COVER_MOTIFS)]
+    motif = COVER_MOTIFS.get(style, COVER_MOTIFS["shield"])
+
+    name = p["name"]
+    size = 52 if len(name) <= 14 else 44 if len(name) <= 18 else 36
+    name_lines = wrap(name, 20, 2)
+    tagline = wrap(p.get("tagline") or p["description"], 30, 2)
+
+    y = 150
+    text = []
+    for line in name_lines:
+        text.append(f'<text x="48" y="{y}" font-family="{FONT}" font-size="{size}" font-weight="700" fill="{fg}">{escape(line)}</text>')
+        y += size + 8
+    y += 4
+    for line in tagline:
+        text.append(f'<text x="48" y="{y}" font-family="{FONT}" font-size="26" fill="{muted}">{escape(line)}</text>')
+        y += 36
+
+    chips, x = [], 48
+    for t in p["tech"][:4]:
+        w = len(t) * 11 + 32
+        if x + w > 500:
+            break
+        chips.append(
+            f'<rect x="{x}" y="336" width="{w}" height="40" rx="20" fill="{chip_bg}" stroke="{chip_border}"/>'
+            f'<text x="{x + w / 2}" y="362" text-anchor="middle" font-family="{MONO}" font-size="17" fill="{fg}">{escape(t)}</text>'
+        )
+        x += w + 10
+
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-label="{escape(name)}">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="{grid}" stroke-width="1"/></pattern>
+    <linearGradient id="f" x1="0" x2="1"><stop offset="0.4" stop-color="{bg}"/><stop offset="1" stop-color="{bg}" stop-opacity="0"/></linearGradient>
+    <clipPath id="c"><rect width="800" height="420" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="800" height="420" fill="{bg}"/>
+    <rect width="800" height="420" fill="url(#g)"/>
+    <rect width="800" height="420" fill="url(#f)"/>
+    <g fill="none" stroke="{a}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">{motif}
+    </g>
+    <rect x="48" y="58" width="44" height="5" rx="2.5" fill="{a}"/>
+    <text x="104" y="65" font-family="{MONO}" font-size="16" letter-spacing="2" fill="{a}">PROJECT</text>
+    {chr(10).join("    " + t for t in text).strip()}
+    {"".join(chips)}
+  </g>
+  <rect x="0.5" y="0.5" width="799" height="419" rx="14" fill="none" stroke="{chip_border}"/>
+</svg>
+"""
+
+
 # ── build ────────────────────────────────────────────────────
 
 
@@ -246,8 +356,20 @@ def build() -> None:
     user = profile["username"]
     accent = profile["theme"]["accent"]
 
+    covers = ROOT / "assets" / "projects" / "covers"
+    covers.mkdir(parents=True, exist_ok=True)
+    for old in covers.glob("*.svg"):  # drop covers of renamed/removed projects
+        old.unlink()
+
     for p in projects:
         p["tech_badges"] = [tech_badge(t, "flat-square") for t in p["tech"]]
+        p["cover_light"] = p["cover_dark"] = ""
+        if not p["image"]:
+            slug = slugify(p["name"])
+            for dark in (False, True):
+                mode = "dark" if dark else "light"
+                (covers / f"{slug}-{mode}.svg").write_text(cover_svg(p, accent, dark), encoding="utf-8")
+                p[f"cover_{mode}"] = f"assets/projects/covers/{slug}-{mode}.svg"
 
     contact_badges = []
     for key, value in (profile["links"] or {}).items():

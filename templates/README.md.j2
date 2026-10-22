@@ -37,6 +37,11 @@
     <td width="50%" valign="top">
 {% if p.image %}
       <a href="{{ p.primary_link }}"><img src="{{ p.image }}" alt="{{ p.name }} screenshot" width="100%"></a>
+{% elif p.cover_light %}
+      <a href="{{ p.primary_link }}"><picture>
+        <source media="(prefers-color-scheme: dark)" srcset="{{ p.cover_dark }}">
+        <img src="{{ p.cover_light }}" alt="{{ p.name }}" width="100%">
+      </picture></a>
 {% endif %}
       <h3><a href="{{ p.primary_link }}">{{ p.name }}</a></h3>
       <p>{{ p.description }}</p>

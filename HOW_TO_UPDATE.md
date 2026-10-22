@@ -33,7 +33,11 @@ Look for `# TODO` comments — those are placeholders to replace.
 
 **Writing tips for recruiters:** start the description with what the project *does* or *improved*, use numbers when you can, and keep it to one line.
 
-### Add a screenshot
+### Project pictures
+
+Every project gets a picture automatically. With no `image`, the build draws a cover in your banner's style (light and dark versions) using the project's name, `tagline`, and first few technologies. To pick the cover's artwork, add `cover_style: shield`, `network`, or `terminal`.
+
+### Use a real screenshot instead
 
 Drop a PNG/JPG/GIF into `assets/projects/` (around 1200×675 looks best) and set `image: assets/projects/your-file.png`. If the file isn't there, the build will stop and tell you.
 

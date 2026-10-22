@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-label="ToothCare AI">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#E1E4E8" stroke-width="1"/></pattern>
+    <linearGradient id="f" x1="0" x2="1"><stop offset="0.4" stop-color="#F6F8FA"/><stop offset="1" stop-color="#F6F8FA" stop-opacity="0"/></linearGradient>
+    <clipPath id="c"><rect width="800" height="420" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="800" height="420" fill="#F6F8FA"/>
+    <rect width="800" height="420" fill="url(#g)"/>
+    <rect width="800" height="420" fill="url(#f)"/>
+    <g fill="none" stroke="#2EA043" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M640 92 L728 124 V196 C728 258 692 300 640 320 C588 300 552 258 552 196 V124 Z" stroke-width="3"/>
+    <path d="M640 124 L700 146 V198 C700 240 676 268 640 284 C604 268 580 240 580 198 V146 Z" opacity="0.4"/>
+    <circle cx="640" cy="192" r="16"/><path d="M640 208 V236"/>
+    <path d="M728 196 H800 M552 196 H500 M500 196 V120 M500 196 V280" opacity="0.5"/>
+    </g>
+    <rect x="48" y="58" width="44" height="5" rx="2.5" fill="#2EA043"/>
+    <text x="104" y="65" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="2" fill="#2EA043">PROJECT</text>
+    <text x="48" y="150" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#1F2328">ToothCare AI</text>
+    <text x="48" y="214" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#59636E">Private, offline dental X-ray</text>
+    <text x="48" y="250" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#59636E">analysis</text>
+    <rect x="48" y="336" width="98" height="40" rx="20" fill="#FFFFFF" stroke="#D1D9E0"/><text x="97.0" y="362" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#1F2328">Python</text><rect x="156" y="336" width="109" height="40" rx="20" fill="#FFFFFF" stroke="#D1D9E0"/><text x="210.5" y="362" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#1F2328">FastAPI</text><rect x="275" y="336" width="98" height="40" rx="20" fill="#FFFFFF" stroke="#D1D9E0"/><text x="324.0" y="362" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#1F2328">SQLite</text>
+  </g>
+  <rect x="0.5" y="0.5" width="799" height="419" rx="14" fill="none" stroke="#D1D9E0"/>
+</svg>

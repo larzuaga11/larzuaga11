@@ -9,17 +9,18 @@ role: Cybersecurity Engineer & Developer
 
 # Lines that cycle in the animated typing header under the banner.
 typing_lines:
-  - Securing systems by building them
-  - Security automation · Detection · Secure code
+  - Building secure systems
+  - Automating security and compliance
   - Open to Cybersecurity Engineer roles
 
-# Short "About me" bullets. Keep to 3–4 lines.
+# Short "About me" bullets. Keep to 3–5 lines.
 # Keep each line in quotes so characters like ':' don't break the file.
 about:
-  - "🛡️ **Cybersecurity engineer with a developer's toolkit**: I write the code that secures, monitors and automates systems"
-  - "🔭 Currently building **security tooling and automation**: replace with your current project"   # TODO
-  - "🌱 Learning **threat detection, cloud security and offensive security**"                         # TODO: adjust to your focus
-  - "💼 Pursuing **Cybersecurity Engineer** roles; also open to security-focused software engineering"
+  - "🛡️ **Cybersecurity engineer with a developer's toolkit**: I build the software that secures, monitors and automates systems"
+  - "⚙️ **Security automation**: turning manual security checks and workflows into reliable scripts and pipelines"
+  - "📋 **Compliance and GRC**: automating evidence collection and control checks so compliance is continuous, not a yearly scramble"
+  - "☁️ **Cloud security**: secure-by-default infrastructure, identity and access, and hardened Linux and Windows environments"
+  - "🔒 **Privacy by design**: my ToothCare AI app runs fully offline so patient data never leaves the machine"
 
 # Contact links. Delete any line you don't want shown.
 links:
@@ -30,11 +31,13 @@ links:
 
 # Tech stack, grouped. Names are matched to logos automatically
 # (see the "Tech badges" section of HOW_TO_UPDATE.md).
-tech_stack:                                                        # TODO: keep only what you use
-  Security: [Kali Linux, Wireshark, Burp Suite, Metasploit, Nmap, Splunk, OWASP]
-  Languages: [Python, Bash, PowerShell, C++, SQL]
-  Cloud & Infra: [AWS, Azure, Docker, Linux, GitHub Actions]
-  Tools: [Git, Terraform, PostgreSQL]
+tech_stack:
+  Languages: [Python, C, C++, JavaScript, SQL, HTML/CSS]
+  Infrastructure & OS: [Linux, Windows Server, Active Directory, GitHub Actions]
+  Frameworks & AI: [FastAPI, React, React Native, Node.js, Electron, PyTorch]
+  Databases & Tools: [PostgreSQL, SQLite, Git]
+  # Add a security group when ready, e.g.
+  # Security: [Wireshark, Nmap, Splunk]
 
 # Theme for the banner and stats cards.
 theme:

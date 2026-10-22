@@ -7,7 +7,9 @@
 #    tech         (required) list of technologies
 #    repo         (optional) link to the code
 #    demo         (optional) link to a live site / video
+#    tagline      (optional) short phrase shown on the auto-generated cover image
 #    image        (optional) screenshot path, e.g. assets/projects/my-app.png
+#                 (no image? a cover picture is generated automatically)
 #    featured     (optional) true = big card at the top, false = "More projects" list
 #    order        (optional) lower numbers show first (default 100)
 #
@@ -15,16 +17,18 @@
 # ─────────────────────────────────────────────────────────────
 
 projects:
-  - name: ToothCare AI                          # TODO: replace
-    description: Replace with what it does and its impact — e.g. "Cut report time by 80% for a 20-person team"
-    tech: [Python, FastAPI, SQLite, TypeScript, React Native, Faster R-CNN, Electron, CSS]
+  - name: ToothCare AI
+    description: Offline desktop app that analyzes panoramic dental X-rays with YOLOv11 and Faster R-CNN, detects 32 conditions and exports PDF reports. No data ever leaves the machine.
+    tagline: Private, offline dental X-ray analysis
+    tech: [Python, FastAPI, SQLite, TypeScript, React Native, YOLOv11, Faster R-CNN, Electron, CSS]
     repo: https://github.com/larzuaga11/ToothCare-AI
-    demo: https://example.com
     featured: true
     order: 1
+    cover_style: shield
 
   - name: Sample Project Two                          # TODO: replace
     description: Replace with a one-line summary of the problem and the outcome
+    tagline: Short phrase shown on the cover image
     tech: [TypeScript, React, AWS]
     repo: https://github.com/larzuaga11/sample-project-two
     featured: true
