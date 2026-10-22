@@ -72,6 +72,23 @@ TECH_LOGOS: dict[str, tuple[str, str]] = {
     "redis": ("redis", "FF4438"),
     "firebase": ("firebase", "DD2C00"),
     "figma": ("figma", "F24E1E"),
+    "powershell": ("powershell", "5391FE"),
+    "sqlite": ("sqlite", "003B57"),
+    "react native": ("react", "61DAFB"),
+    "electron": ("electron", "47848F"),
+    # Security
+    "kali linux": ("kalilinux", "557C94"),
+    "wireshark": ("wireshark", "1679A7"),
+    "burp suite": ("burpsuite", "FF6633"),
+    "metasploit": ("metasploit", "2596CD"),
+    "nmap": ("nmap", "4682B4"),
+    "splunk": ("splunk", "000000"),
+    "owasp": ("owasp", "000000"),
+    "hack the box": ("hackthebox", "9FEF00"),
+    "tryhackme": ("tryhackme", "212C42"),
+    "snort": ("snort", "F6A7AA"),
+    "elastic": ("elastic", "005571"),
+    "suricata": ("suricata", "EF7B23"),
 }
 
 CONTACTS = {
@@ -119,7 +136,7 @@ def guess_slug(name: str) -> str:
 
 def tech_badge(name: str, style: str) -> dict:
     slug, color = TECH_LOGOS.get(name.lower(), (guess_slug(name), "30363D"))
-    logo_color = "black" if color.upper() in {"F7DF1E", "61DAFB", "FCC624"} else "white"
+    logo_color = "black" if color.upper() in {"F7DF1E", "61DAFB", "FCC624", "9FEF00", "F6A7AA"} else "white"
     img = (
         f"https://img.shields.io/badge/{shield_text(name)}-{color}"
         f"?style={style}&logo={slug}&logoColor={logo_color}"

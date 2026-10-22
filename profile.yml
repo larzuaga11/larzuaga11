@@ -4,38 +4,39 @@
 # ─────────────────────────────────────────────────────────────
 
 username: larzuaga11                 # your GitHub username (used for stats cards)
-name: Luis Arzuaga                    # TODO: confirm how you want your name shown
-role: Software Engineer               # TODO: one-line title, e.g. "Full-Stack Engineer"
+name: Luis Arzuaga
+role: Cybersecurity Engineer & Developer
 
 # Lines that cycle in the animated typing header under the banner.
 typing_lines:
-  - Building reliable software that solves real problems   # TODO
-  - Open to new opportunities                               # TODO
+  - Securing systems by building them
+  - Security automation · Detection · Secure code
+  - Open to Cybersecurity Engineer roles
 
 # Short "About me" bullets. Keep to 3–4 lines.
 # Keep each line in quotes so characters like ':' don't break the file.
 about:
-  - "🔭 Currently building **something cool** — tell people what you're working on"   # TODO
-  - "🌱 Learning **a new technology** right now"                                        # TODO
-  - "💼 Open to **full-time roles** in software engineering"                            # TODO
-  - "⚡ Fun fact: replace this with something memorable about you"                      # TODO
+  - "🛡️ **Cybersecurity engineer with a developer's toolkit**: I write the code that secures, monitors and automates systems"
+  - "🔭 Currently building **security tooling and automation**: replace with your current project"   # TODO
+  - "🌱 Learning **threat detection, cloud security and offensive security**"                         # TODO: adjust to your focus
+  - "💼 Pursuing **Cybersecurity Engineer** roles; also open to security-focused software engineering"
 
 # Contact links. Delete any line you don't want shown.
 links:
-  linkedin: https://www.linkedin.com/in/your-handle   # TODO
-  email: you@example.com                              # TODO
+  linkedin: https://www.linkedin.com/in/larzuaga
+  email: luisarzuaga1610@gmail.com
   portfolio: https://your-site.com                    # TODO
   resume: https://your-site.com/resume.pdf            # TODO
 
 # Tech stack, grouped. Names are matched to logos automatically
 # (see the "Tech badges" section of HOW_TO_UPDATE.md).
-tech_stack:
-  Languages: [Python, TypeScript, JavaScript, SQL]                 # TODO
-  Frameworks: [React, Node.js, FastAPI]                            # TODO
-  Cloud & DevOps: [AWS, Docker, GitHub Actions]                    # TODO
-  Tools: [Git, PostgreSQL, Linux]                                  # TODO
+tech_stack:                                                        # TODO: keep only what you use
+  Security: [Kali Linux, Wireshark, Burp Suite, Metasploit, Nmap, Splunk, OWASP]
+  Languages: [Python, Bash, PowerShell, C++, SQL]
+  Cloud & Infra: [AWS, Azure, Docker, Linux, GitHub Actions]
+  Tools: [Git, Terraform, PostgreSQL]
 
 # Theme for the banner and stats cards.
 theme:
-  accent: "2F81F7"      # hex color without '#', used for banner + badges
+  accent: "2EA043"      # hex color without '#', used for banner + badges
   show_stats: true      # set false to hide the GitHub stats section
