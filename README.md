@@ -38,16 +38,7 @@
       <p><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"> <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/React%20Native-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React Native"> <img src="https://img.shields.io/badge/YOLOv11-30363D?style=flat-square&logo=yolov11&logoColor=white" alt="YOLOv11"> <img src="https://img.shields.io/badge/Faster%20R--CNN-30363D?style=flat-square&logo=fasterrcnn&logoColor=white" alt="Faster R-CNN"> <img src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white" alt="Electron"> <img src="https://img.shields.io/badge/CSS-663399?style=flat-square&logo=css&logoColor=white" alt="CSS"> </p>
       <p><a href="https://github.com/larzuaga11/ToothCare-AI"><b>Code</b></a></p>
     </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/larzuaga11/sample-project-two"><picture>
-        <source media="(prefers-color-scheme: dark)" srcset="assets/projects/covers/sample-project-two-dark.svg">
-        <img src="assets/projects/covers/sample-project-two-light.svg" alt="Sample Project Two" width="100%">
-      </picture></a>
-      <h3><a href="https://github.com/larzuaga11/sample-project-two">Sample Project Two</a></h3>
-      <p>Replace with a one-line summary of the problem and the outcome</p>
-      <p><img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"> <img src="https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS"> </p>
-      <p><a href="https://github.com/larzuaga11/sample-project-two"><b>Code</b></a></p>
-    </td>
+    <td width="50%"></td>
   </tr>
 </table>
 
